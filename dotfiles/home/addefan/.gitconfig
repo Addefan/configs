@@ -1,0 +1,7 @@
+[user]
+	name = Vitaly Zorin
+	email = addefan@mail.ru
+[core]
+	autocrlf = input
+[init]
+	defaultBranch = main

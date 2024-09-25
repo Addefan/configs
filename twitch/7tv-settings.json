@@ -1,1 +1,205 @@
-{"timestamp":1717332939728,"settings":[{"key":"chat.alternating_background","type":"boolean","value":false,"timestamp":1717332359527},{"key":"chat.deleted_messages","type":"number","value":1,"timestamp":1717332688774},{"key":"chat.hide_timestamps_vods","type":"boolean","value":true,"timestamp":1717331899052},{"key":"chat.mod_logs.ack_risks","type":"boolean","value":true,"timestamp":1714929858473},{"key":"chat.mod_logs.enabled","type":"boolean","value":true,"timestamp":1714929858474},{"key":"chat.mod_messages","type":"boolean","value":true,"timestamp":1717331899069},{"key":"chat.padding","type":"number","value":1,"timestamp":1717332414413},{"key":"chat.timestamp_with_seconds","type":"boolean","value":false,"timestamp":1717332419500},{"key":"chat_input.autocomplete.carousel.mode","type":"number","value":1,"timestamp":1717331899116},{"key":"chat_input.autocomplete.colon.emoji","type":"boolean","value":true,"timestamp":1717332285437},{"key":"chat_input.spam.bypass_duplicate","type":"boolean","value":true,"timestamp":1716055082870},{"key":"general.autoclaim.channel_points","type":"boolean","value":true,"timestamp":1717331899128},{"key":"highlights.basic.mention_sound","type":"boolean","value":true,"timestamp":1717331899146},{"key":"highlights.custom","type":"object","value":[],"timestamp":1717332869492,"constructorName":"Map"},{"key":"layout.hide_bits_buttons","type":"boolean","value":true,"timestamp":1717331899190},{"key":"layout.hide_buttons_below_chatbox","type":"boolean","value":false,"timestamp":1717331899227},{"key":"layout.hide_channel_leaderboard","type":"boolean","value":true,"timestamp":1717331899265},{"key":"layout.hide_channel_point_balance_button","type":"boolean","value":false,"timestamp":1717331899289},{"key":"layout.hide_chat_input_box","type":"boolean","value":false,"timestamp":1717331899303},{"key":"layout.hide_hype_chat_button","type":"boolean","value":false,"timestamp":1717331899312},{"key":"layout.hide_live_notification_button","type":"boolean","value":false,"timestamp":1717331899324},{"key":"layout.hide_player_controls","type":"boolean","value":false,"timestamp":1717331899335},{"key":"layout.hide_prime_offers","type":"boolean","value":true,"timestamp":1717331899345},{"key":"layout.hide_top_bar_of_stream","type":"boolean","value":true,"timestamp":1717331899356},{"key":"layout.hide_unfollow_button","type":"boolean","value":true,"timestamp":1717331899366},{"key":"player.hide_player_extensions","type":"boolean","value":false,"timestamp":1717332932435},{"key":"player.skip_content_restriction","type":"boolean","value":true,"timestamp":1717331899400},{"key":"player.video_stats","type":"boolean","value":false,"timestamp":1717332917071},{"key":"ui.compact_tooltips","type":"boolean","value":false,"timestamp":1717332113857},{"key":"ui.emote_menu.button_placement","type":"string","value":"below","timestamp":1717331937363},{"key":"ui.emote_menu.usage","type":"object","value":[],"timestamp":1717332665146,"constructorName":"Map"},{"key":"ui.emote_menu_search","type":"boolean","value":false,"timestamp":1717331998237},{"key":"ui.sidebar_previews","type":"boolean","value":true,"timestamp":1717332033160}]}
+{
+  "timestamp": 1717332939728,
+  "settings": [
+    {
+      "key": "chat.alternating_background",
+      "type": "boolean",
+      "value": false,
+      "timestamp": 1717332359527
+    },
+    {
+      "key": "chat.deleted_messages",
+      "type": "number",
+      "value": 1,
+      "timestamp": 1717332688774
+    },
+    {
+      "key": "chat.hide_timestamps_vods",
+      "type": "boolean",
+      "value": true,
+      "timestamp": 1717331899052
+    },
+    {
+      "key": "chat.mod_logs.ack_risks",
+      "type": "boolean",
+      "value": true,
+      "timestamp": 1714929858473
+    },
+    {
+      "key": "chat.mod_logs.enabled",
+      "type": "boolean",
+      "value": true,
+      "timestamp": 1714929858474
+    },
+    {
+      "key": "chat.mod_messages",
+      "type": "boolean",
+      "value": true,
+      "timestamp": 1717331899069
+    },
+    {
+      "key": "chat.padding",
+      "type": "number",
+      "value": 1,
+      "timestamp": 1717332414413
+    },
+    {
+      "key": "chat.timestamp_with_seconds",
+      "type": "boolean",
+      "value": false,
+      "timestamp": 1717332419500
+    },
+    {
+      "key": "chat_input.autocomplete.carousel.mode",
+      "type": "number",
+      "value": 1,
+      "timestamp": 1717331899116
+    },
+    {
+      "key": "chat_input.autocomplete.colon.emoji",
+      "type": "boolean",
+      "value": true,
+      "timestamp": 1717332285437
+    },
+    {
+      "key": "chat_input.spam.bypass_duplicate",
+      "type": "boolean",
+      "value": true,
+      "timestamp": 1716055082870
+    },
+    {
+      "key": "general.autoclaim.channel_points",
+      "type": "boolean",
+      "value": true,
+      "timestamp": 1717331899128
+    },
+    {
+      "key": "highlights.basic.mention_sound",
+      "type": "boolean",
+      "value": true,
+      "timestamp": 1717331899146
+    },
+    {
+      "key": "highlights.custom",
+      "type": "object",
+      "value": [],
+      "timestamp": 1717332869492,
+      "constructorName": "Map"
+    },
+    {
+      "key": "layout.hide_bits_buttons",
+      "type": "boolean",
+      "value": true,
+      "timestamp": 1717331899190
+    },
+    {
+      "key": "layout.hide_buttons_below_chatbox",
+      "type": "boolean",
+      "value": false,
+      "timestamp": 1717331899227
+    },
+    {
+      "key": "layout.hide_channel_leaderboard",
+      "type": "boolean",
+      "value": true,
+      "timestamp": 1717331899265
+    },
+    {
+      "key": "layout.hide_channel_point_balance_button",
+      "type": "boolean",
+      "value": false,
+      "timestamp": 1717331899289
+    },
+    {
+      "key": "layout.hide_chat_input_box",
+      "type": "boolean",
+      "value": false,
+      "timestamp": 1717331899303
+    },
+    {
+      "key": "layout.hide_hype_chat_button",
+      "type": "boolean",
+      "value": false,
+      "timestamp": 1717331899312
+    },
+    {
+      "key": "layout.hide_live_notification_button",
+      "type": "boolean",
+      "value": false,
+      "timestamp": 1717331899324
+    },
+    {
+      "key": "layout.hide_player_controls",
+      "type": "boolean",
+      "value": false,
+      "timestamp": 1717331899335
+    },
+    {
+      "key": "layout.hide_prime_offers",
+      "type": "boolean",
+      "value": true,
+      "timestamp": 1717331899345
+    },
+    {
+      "key": "layout.hide_top_bar_of_stream",
+      "type": "boolean",
+      "value": true,
+      "timestamp": 1717331899356
+    },
+    {
+      "key": "layout.hide_unfollow_button",
+      "type": "boolean",
+      "value": true,
+      "timestamp": 1717331899366
+    },
+    {
+      "key": "player.hide_player_extensions",
+      "type": "boolean",
+      "value": false,
+      "timestamp": 1717332932435
+    },
+    {
+      "key": "player.skip_content_restriction",
+      "type": "boolean",
+      "value": true,
+      "timestamp": 1717331899400
+    },
+    {
+      "key": "player.video_stats",
+      "type": "boolean",
+      "value": false,
+      "timestamp": 1717332917071
+    },
+    {
+      "key": "ui.compact_tooltips",
+      "type": "boolean",
+      "value": false,
+      "timestamp": 1717332113857
+    },
+    {
+      "key": "ui.emote_menu.button_placement",
+      "type": "string",
+      "value": "below",
+      "timestamp": 1717331937363
+    },
+    {
+      "key": "ui.emote_menu.usage",
+      "type": "object",
+      "value": [],
+      "timestamp": 1717332665146,
+      "constructorName": "Map"
+    },
+    {
+      "key": "ui.emote_menu_search",
+      "type": "boolean",
+      "value": false,
+      "timestamp": 1717331998237
+    },
+    {
+      "key": "ui.sidebar_previews",
+      "type": "boolean",
+      "value": true,
+      "timestamp": 1717332033160
+    }
+  ]
+}

@@ -2,24 +2,139 @@
   "version": 2,
   "type": "full",
   "values": {
+    "p:0:chat.filtering.display-deleted": "DETAILED",
+    "p:0:first_message_highlight.first_time_chatter": true,
+    "p:0:chat.filtering.clickable-mentions": true,
+    "p:0:chat.filtering.ignore-clear": true,
+    "p:0:chat.emote-menu.tall": true,
+    "p:0:layout.hide-discover-luna": true,
+    "p:0:first_message_highlight.enabled": false,
+    "p:0:channel.round-avatars": true,
+    "p:0:chat.filtering.deleted-style": 0,
     "p:0:chat.filtering.highlight-mentions": true,
-    "p:0:player.vod.autoplay": false,
-    "p:0:player.home.autoplay": false,
-    "p:0:ffzap.core.highlight_sound_prevent_own_channel": true,
+    "p:0:chat.tab-complete.prioritize-prefix-matches": true,
+    "p:0:ffzap.core.highlight_sound": "https://cdn.ffzap.com/sounds/icq.mp3",
+    "p:0:chat.actions.hover": [
+      {
+        "v": {
+          "action": "chat",
+          "appearance": {
+            "type": "icon",
+            "text": "C",
+            "tooltip": "\u041f\u0430\u0441\u0442\u0430 \u0441 \u043d\u0438\u043a\u043e\u043c",
+            "icon": "ffz-i-user",
+            "color": "#FFFFFF"
+          },
+          "options": {
+            "command": "{{user.login}}: {{message.text}}"
+          },
+          "display": {},
+          "ctx": "hover"
+        },
+        "id": "1726339870020-0.6776519364509397-0"
+      },
+      {
+        "v": {
+          "action": "chat",
+          "appearance": {
+            "type": "icon",
+            "icon": "ffz-i-docs",
+            "tooltip": "\u041f\u0430\u0441\u0442\u0430"
+          },
+          "options": {
+            "command": "{{message.text}}"
+          },
+          "display": {},
+          "ctx": "hover"
+        },
+        "id": "1724754742383-0.2660107310895825-2"
+      },
+      {
+        "v": {
+          "action": "copy_message",
+          "appearance": {
+            "type": "icon",
+            "icon": "ffz-i-floppy",
+            "tooltip": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c"
+          },
+          "options": {
+            "format": "{{message.text}}"
+          },
+          "display": {}
+        },
+        "id": "1744109715342-0.12674269380691539-0"
+      },
+      {
+        "v": {
+          "action": "reply",
+          "appearance": {
+            "type": "dynamic"
+          },
+          "ctx": "hover"
+        },
+        "id": "1724754712067-0.11090405575853524-1"
+      }
+    ],
+    "p:0:chat.points.auto-rewards": true,
+    "p:0:layout.theatre-navigation": false,
+    "unlocked-effects": [
+      720508,
+      720509,
+      720729,
+      723890,
+      "64e3b31920cb0d25d950a9f9",
+      "6468f7acaee1f7f47567708e",
+      "6468f8d1aee1f7f4756770cf",
+      "6468f89caee1f7f4756770c2",
+      "6468f845aee1f7f47567709b",
+      "6468f869aee1f7f4756770a8",
+      "6468f883aee1f7f4756770b5"
+    ],
+    "addons.enabled": [
+      "7tv-emotes",
+      "ffzap-core",
+      "ffzap-bttv",
+      "twir",
+      "first-message-highlighter",
+      "unread-mentions-counter"
+    ],
+    "p:0:layout.side-nav.show-avatars": true,
+    "favorite-emotes.emoji": [
+      "1f91f",
+      "1f61c",
+      "261d-fe0f",
+      "1f913",
+      "1f4aa",
+      "1f919"
+    ],
+    "shared-chat-notice": 1,
+    "p:0:layout.side-nav.hide-viewers": false,
+    "p:0:addon.seventv_emotes.unlisted_emotes": true,
+    "p:0:chat.emote-menu.show-quick-nav": true,
+    "p:0:chat.bits.show": false,
+    "p:0:chat.drops.auto-rewards": true,
+    "p:0:chat.emote-menu.reduced-padding": true,
+    "p:0:layout.side-nav.hide-stories": true,
+    "emote-menu.collapsed": [],
+    "p:0:layout.turbo-cta": false,
     "favorite-emotes.7TV": [
       "64a5c416a8b7560b00a3d8e0",
       "627eb18deee62ad06c4aa731",
-      "661bd78a0d9dd1ce116a5d93"
+      "661bd78a0d9dd1ce116a5d93",
+      "01GHFAXR7G000DNMTRD08GE9Y9",
+      "01GHXY2RCR00025VZ4E5FVRZ3G",
+      "01GHQENYF00009Z46GDGJ19FCQ",
+      "01GAJBNT780004XAVG6P7AZAK2",
+      "01H47M166R000481SD0Z8VV7FF",
+      "01FF974EZR000BX5VYPPT3DJFW",
+      "01GZYFSAQG000DBFGG5HZX2EFS",
+      "01FEV00990000FCZBKX8KY8JRF",
+      "01F6TDT0280005G9TG05W2BXMB",
+      "01G7A85KAR00029YRR37CZ12TD",
+      "01GA9PTTXG0008XHFRJVH0QGND"
     ],
-    "p:0:channel.panel-tips": false,
-    "p:0:layout.minimal-navigation": false,
-    "p:0:channel.hide-unfollow": true,
-    "p:0:channel.auto-click-chat": true,
-    "p:0:chat.emote-menu.tall": true,
-    "p:0:player.disable-content-warnings": true,
-    "p:0:channel.auto-skip-trailer": true,
-    "p:0:addon.seventv_emotes.unlisted_emotes": true,
-    "p:0:layout.prime-offers": false,
+    "p:0:player.home.autoplay": false,
+    "p:0:player.theatre.metadata": false,
     "cfg-seen": [
       "i18n.debug.capture",
       "i18n.debug.transform",
@@ -440,120 +555,53 @@
       "addon.repetition_detector.repetitions_threshold",
       "addon.repetition_detector.similarity_threshold",
       "addon.repetition_detector.text_color",
-      "addon.repetition_detector.pad-bottom"
+      "addon.repetition_detector.pad-bottom",
+      "addon.seventv_emotes.nametag_paints_drop_shadows",
+      "layout.side-nav.hide-stories",
+      "chat.callouts.clip",
+      "chat.subs.native",
+      "chat.emotes.source-priorities",
+      "chat.filtering.blocked-callouts",
+      "chat.shared-chat.style",
+      "chat.shared-chat.username-tooltip",
+      "chat.banners.shared-chat",
+      "directory.hide-costream-border",
+      "directory.block-users",
+      "player.cast-button.hide",
+      "player.clip-button.custom",
+      "player.clip-button.hide-native"
     ],
-    "p:0:tooltip.link-nsfw-images": true,
-    "p:0:chat.actions.hover": [
-      {
-        "v": {
-          "action": "chat",
-          "appearance": {
-            "type": "icon",
-            "text": "C",
-            "tooltip": "Паста с ником",
-            "icon": "ffz-i-user",
-            "color": "#FFFFFF"
-          },
-          "options": {
-            "command": "{{user.login}}: {{message.text}}"
-          },
-          "display": {}
-        },
-        "id": "1726339870020-0.6776519364509397-0"
-      },
-      {
-        "v": {
-          "action": "chat",
-          "appearance": {
-            "type": "icon",
-            "icon": "ffz-i-docs",
-            "tooltip": "Паста"
-          },
-          "options": {
-            "command": "{{message.text}}"
-          },
-          "display": {},
-          "ctx": "hover"
-        },
-        "id": "1724754742383-0.2660107310895825-2"
-      },
-      {
-        "v": {
-          "action": "reply",
-          "appearance": {
-            "type": "dynamic"
-          },
-          "ctx": "hover"
-        },
-        "id": "1724754712067-0.11090405575853524-1"
-      }
-    ],
-    "p:0:chat.filtering.deleted-style": 0,
-    "p:0:layout.turbo-cta": false,
-    "favorite-emotes.emoji": [
-      "1f91f",
-      "1f61c"
-    ],
-    "p:0:chat.video-chat.timestamps": true,
-    "p:0:ffzap.core.highlight_sound": "https://cdn.ffzap.com/sounds/icq.mp3",
-    "p:0:chat.emote-menu.reduced-padding": true,
-    "p:0:layout.swap-sidebars": false,
+    "p:0:sub-button.prime-notice": false,
+    "p:0:layout.prime-offers": false,
+    "p:0:chat.rich.hide-tokens": true,
+    "p:0:chat.rich.all-links": true,
+    "p:0:chat.subs.merge-gifts": 10,
+    "p:0:layout.minimal-navigation": false,
+    "p:0:player.vod.autoplay": false,
+    "p:0:channel.auto-click-off-featured": true,
+    "p:0:channel.auto-click-chat": true,
     "p:0:first_message_highlight.first_time_chatter_color": "#2A1F30",
-    "emote-menu.collapsed": [],
-    "p:0:chat.filtering.ignore-clear": true,
-    "p:0:channel.round-avatars": true,
-    "p:0:chat.filtering.display-deleted": "DETAILED",
-    "p:0:chat.drops.auto-rewards": true,
+    "p:0:player.disable-content-warnings": true,
+    "p:0:layout.subtember": false,
     "p:0:ffzap.core.enable_highlight_sound": true,
+    "p:0:metadata.player-stats": true,
+    "p:0:link-cards.use-destination": true,
+    "cfg-collapsed": [
+      "debugging.experiments",
+      "chat.actions.reasons"
+    ],
+    "p:0:ffzap.core.highlight_sound_prevent_own_channel": true,
     "agreed-tos": [
       "YouTube"
     ],
+    "p:0:chat.video-chat.timestamps": true,
+    "p:0:layout.swap-sidebars": false,
+    "p:0:tooltip.link-nsfw-images": true,
+    "p:0:channel.panel-tips": false,
     "p:0:layout.side-nav.rerun-style": 2,
-    "p:0:first_message_highlight.first_time_chatter": true,
-    "p:0:channel.auto-click-off-featured": true,
-    "p:0:first_message_highlight.enabled": false,
-    "p:0:layout.side-nav.hide-viewers": false,
-    "p:0:layout.hide-discover-luna": true,
-    "p:0:chat.subs.merge-gifts": 10,
-    "p:0:layout.side-nav.show-avatars": true,
-    "p:0:link-cards.use-destination": true,
-    "p:0:chat.rich.all-links": true,
-    "p:0:chat.filtering.clickable-mentions": true,
-    "p:0:metadata.player-stats": true,
-    "p:0:chat.rich.hide-tokens": true,
-    "addons.enabled": [
-      "7tv-emotes",
-      "ffzap-core",
-      "ffzap-bttv",
-      "twir",
-      "first-message-highlighter",
-      "unread-mentions-counter"
-    ],
+    "p:0:channel.hide-unfollow": true,
     "p:0:chat.tab-complete.emotes-without-colon": true,
-    "p:0:layout.subtember": false,
-    "p:0:chat.points.auto-rewards": true,
-    "p:0:chat.tab-complete.prioritize-prefix-matches": true,
-    "p:0:player.theatre.metadata": false,
-    "p:0:chat.bits.animated": false,
-    "p:0:chat.emote-menu.show-quick-nav": true,
-    "cfg-collapsed": [
-      "debugging.experiments"
-    ],
-    "p:0:layout.theatre-navigation": false,
-    "p:0:sub-button.prime-notice": false,
-    "p:0:chat.bits.show": false,
-    "unlocked-effects": [
-      720508,
-      720509,
-      720729,
-      723890,
-      "64e3b31920cb0d25d950a9f9",
-      "6468f7acaee1f7f47567708e",
-      "6468f8d1aee1f7f4756770cf",
-      "6468f89caee1f7f4756770c2",
-      "6468f845aee1f7f47567709b",
-      "6468f869aee1f7f4756770a8",
-      "6468f883aee1f7f4756770b5"
-    ]
+    "p:0:channel.auto-skip-trailer": true,
+    "p:0:chat.bits.animated": false
   }
 }
